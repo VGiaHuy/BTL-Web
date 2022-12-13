@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>News</title>
+  <link rel="stylesheet" href="./css/form.css">
+  <link rel="stylesheet" href="./css/trangchu.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./js/form.js"></script>
+</head>
+<body>
+  <!-- begin header -->
+  <div id="header">
+    <div class="top-header">
+      <h1><a href="trangchu.html"><img class="logo" src="images/logo.png" alt=""></a></h1>
+      <div class="header-title">
+        <h3>IT TV</h3>
+        <h4>Kênh tin tức dành cho bạn</h4>
+      </div>
+    </div>
+
+    <div class="bottom-header">
+      <nav>
+        <ul>
+          <li><a href="trangchu.html">Trang chủ</a></li>
+          <li><a href="#">Tin mới</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+          <li><a href="#">Khác</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- end header -->
+
+    <!-- begin main -->
+    <div id="main">
+      <div class="formbold-main-wrapper">
+        <div class="formbold-form-wrapper">
+          <form action="" name="myform" onsubmit="return validateform()">
+            <div class="formbold-mb-5">
+              <label for="name" class="formbold-form-label"> Họ và tên/ Full name </label>
+              <input type="text" name="name" id="name" placeholder="Họ và tên/ Full name" class="formbold-form-input"/>
+            </div>
+      
+            <div class="formbold-mb-5">
+              <label for="email" class="formbold-form-label">Địa chỉ Email/ Email Address </label>
+              <input type="email" name="email" id="email" placeholder="Email" class="formbold-form-input" />
+            </div>
+      
+            <div class="formbold-mb-5">
+              <label for="subject" class="formbold-form-label"> Giới tính/ Sex </label>
+              <input type="text" name="subject" id="subject" placeholder="Giới tính/ Sex" class="formbold-form-input"/>
+            </div>
+      
+            <div class="formbold-mb-5">
+              <label for="message" class="formbold-form-label">Tin nhắn/ Message </label>
+              <textarea rows="6" name="message" id="message" placeholder="Tin nhắn/ Message" class="formbold-form-input"></textarea>
+            </div>
+      
+            <div>
+              <button class="formbold-btn">Gửi/ Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <script src="./form.js"></script>
+    <!-- end main -->
+
+    <!-- begin footer -->
+    <div id="footer">
+      <div class="footer-content">
+          <h3>IT TV</h3>
+          <p>IT TV là nơi giúp bạn tìm kiếm, xem những tin tức mới nhất. Hãy thường xuyên theo dõi để cập nhật những tin tức mới nhất từ Gia Huy TV nhé.</p>
+          <p>IT TV is a place to help you find and watch the latest news. Please regularly follow to update the latest news from Gia Huy TV.</p>
+          <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+                  <div class="footer-menu">
+                    <ul class="f-menu">
+                      <li><a href="trangchu.html">Home</a></li>
+                      <li><a href="">Blog</a></li>
+                      <li><a href="lien-he.html">Contact</a></li>
+                      <li><a href="">About</a></li>
+                    </ul>
+                  </div>
+      </div>
+    </div>
+    <!-- end footer -->
+  </div>
+</body>
+</html>

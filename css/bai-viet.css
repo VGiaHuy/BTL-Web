@@ -1,0 +1,109 @@
+.content {
+    margin: 20px 70px;
+}
+
+.img {
+    width: 700px;
+    height: 400px;
+    margin: 0 100px;
+}
+
+.content h1{
+    color: #d62520;
+
+}
+
+.content h2, .content p,.img {
+    margin-bottom: 20px;
+}
+
+.content h2{
+    color: #505050;
+}
+
+.content h3{
+    color: #505050;
+    font-size: larger;
+}
+
+.content .img-bottom{
+    width: 600px;
+    height: 350px;
+    margin: 0 100px;
+}
+
+.content p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:125%;
+}
+
+.box-comment {
+    border-top: 5px solid #f7f7f7;
+    padding-top: 18px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.box-comment h3{
+    font-size: 22px;
+    font-family: NotoSerif;
+}
+
+.box-comment .box-content .details_avt .img-avt{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+
+.box-comment .box-content .input{
+    width: calc(100% - 60px);
+    float: right;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.box-comment .box-content .input:before {
+    border-right: 6px solid #ccc;
+    left: -5px;
+}
+
+.box-comment .box-content .form-control {
+    font-size: 14px;
+    height: 55px;
+    border-color: #dcdcdc;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.box-comment .box-content .btnSubmit {
+    font-size: 13px;
+    color: #fff;
+    background: #0098d1;
+    padding: 7px 22px;
+    float: right;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    justify-content: space-between!important;
+}
